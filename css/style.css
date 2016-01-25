@@ -11,38 +11,11 @@
 
 body {
   margin-top: 0.5em;
-  background-color: #ADDFFF;
   color: #454545;
 }
 
-pre {
-  white-space: pre;
-  word-wrap: normal;
-  overflow: auto;
-}
-
-pre.CodeMirror {
-  padding: 0;
-  height: inherit;
-}
-
-pre.CodeMirror * {
-  line-height: 1.5em
-}
-
-.CodeMirror-gutter {
-  height: inherit;
-  -webkit-border-radius: 3px 0 0 3px;
-  -moz-border-radius: 3px 0 0 3px;
-  border-radius: 3px 0 0 3px;
-}
-
-.CodeMirror-scroll {
-  height: inherit;
-}
-
-.navbar-inner {
-  background: white;
+.navbar-right {
+    margin-right: 20px;
 }
 
 .weather {
@@ -54,9 +27,6 @@ pre.CodeMirror * {
   font-size: 6em;
   line-height: 1em;
   text-align: center;
-
-  color: #FFFFFF;
-  text-shadow: 0 0 20px #7CCCFF;
 }
 
 .current h1 .temperature {
@@ -64,12 +34,8 @@ pre.CodeMirror * {
 }
 
 .current h2 {
-  margin: 0;
-  margin-top: -1em;
-  
-  color: #FFFFFF;
+  margin: -15px 0px 0px 0px;
   text-align: center;
-  text-shadow: 0 0 20px #7CCCFF;
 }
 
 .forecast {
